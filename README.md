@@ -36,38 +36,3 @@ v1.0.0	MAJOR	Wersja początkowa: strona główna i kontakt
 v1.1.0	MINOR	Dodanie stylów CSS, nawigacji
 v1.1.1	PATCH	Poprawka walidacji formularza
 v1.2.0	MINOR	Endpoint logowania, testy integracyjne
-
-## Endpoint logowania
-
-**POST /login**
-
-**Body:**
-```json
-{
-  "email": "user@example.com",
-  "password": "Secret123"
-}
-Sukces:
-
-Status: 200
-
-Body:
-
-json
-Kopiuj
-Edytuj
-{
-  "message": "Zalogowano pomyślnie"
-}
-Błąd:
-
-Status: 401
-
-Body:
-
-json
-Kopiuj
-Edytuj
-{
-  "error": "Nieprawidłowe dane logowania"
-}
