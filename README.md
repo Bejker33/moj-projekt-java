@@ -30,14 +30,22 @@ javac src/Main.java
 # Uruchomienie programu
 java -cp src Main
 
+---
+
 ## Dokumentacja
 Pełna dokumentacja dostępna jest [tutaj](https://example.com)
+
+---
 
 ## Licencja
 Ten projekt jest licencjonowany pod [licencją MIT](https://pl.wikipedia.org/wiki/Licencja_MIT)
 
+---
+
 ## Autorzy
 - Przemek Pyszczek – [GitHub](https://github.com/Bejker33)
+
+---
 
 ## Podziękowania
 - Podziękowania dla osób lub organizacji, które pomogły
