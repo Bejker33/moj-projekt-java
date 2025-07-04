@@ -1,55 +1,73 @@
-# Mój Projekt Java
+# 🌟 Mój Projekt Node.js
 
-Prosty projekt konsolowy w Javie, który wyświetla komunikat w terminalu.
+![Node.js](https://img.shields.io/badge/node-%5E18.x-brightgreen)
+![npm](https://img.shields.io/badge/npm-%5E9.x-blue)
+![Build](https://img.shields.io/badge/build-passing-success)
+![License](https://img.shields.io/badge/license-MIT-yellow)
+![Version](https://img.shields.io/badge/version-1.2.0-blue)
 
-![Java](https://img.shields.io/badge/language-Java-blue)
-![License](https://img.shields.io/badge/license-MIT-green)
+Aplikacja demonstracyjna Node.js z przykładowymi endpointami, testami jednostkowymi i integracyjnymi.
 
----
-
-## Funkcjonalności
-
-- Wyświetlanie powitalnego komunikatu
-- Przykładowa struktura katalogów projektu Java
-- Instrukcja kompilacji i uruchamiania
+![Screenshot](screenshot.png)
 
 ---
 
-## Instalacja
+## 🚀 Funkcjonalności
+
+✅ Strona główna i kontaktowa  
+✅ System nawigacji między stronami  
+✅ Walidacja formularza kontaktowego  
+✅ Endpoint logowania użytkownika  
+✅ Testy jednostkowe i integracyjne  
+✅ Semantic versioning z tagami wersji  
+
+---
+
+## 🛠️ Instalacja
 
 ```bash
-# Klonowanie repozytorium
-git clone https://github.com/tBejker33/moj-projekt-java.git
+git clone https://github.com/Bejker33/moj-projekt-java.git
+cd twoje-repozytorium
+npm install
 
-# Przejście do katalogu projektu
-cd moj-projekt-java
+🧭 Dokumentacja zmian – Semantic Versioning
+Wersja	Typ	Opis
+v1.0.0	MAJOR	Wersja początkowa: strona główna i kontakt
+v1.1.0	MINOR	Dodanie stylów CSS, nawigacji
+v1.1.1	PATCH	Poprawka walidacji formularza
+v1.2.0	MINOR	Endpoint logowania, testy integracyjne
 
-# Kompilacja pliku Main.java
-javac src/Main.java
+## Endpoint logowania
 
-# Uruchomienie programu
-java -cp src Main
+**POST /login**
 
-## Utils
+**Body:**
+```json
+{
+  "email": "user@example.com",
+  "password": "Secret123"
+}
+Sukces:
 
-Klasa pomocnicza wyświetlająca komunikat.
+Status: 200
 
----
+Body:
 
-## Dokumentacja
-Pełna dokumentacja dostępna jest [tutaj](https://example.com)
+json
+Kopiuj
+Edytuj
+{
+  "message": "Zalogowano pomyślnie"
+}
+Błąd:
 
----
+Status: 401
 
-## Licencja
-Ten projekt jest licencjonowany pod [licencją MIT](https://pl.wikipedia.org/wiki/Licencja_MIT)
+Body:
 
----
-
-## Autorzy
-- Przemek Pyszczek – [GitHub](https://github.com/Bejker33)
-
----
-
-## Podziękowania
-- Podziękowania dla osób lub organizacji, które pomogly
+json
+Kopiuj
+Edytuj
+{
+  "error": "Nieprawidłowe dane logowania"
+}
