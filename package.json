@@ -1,0 +1,27 @@
+{
+  "name": "moj-projekt-java",
+  "version": "1.0.0",
+  "description": "Prosty projekt konsolowy w Javie, który wyświetla komunikat w terminalu.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bejker33/moj-projekt-java.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bejker33/moj-projekt-java/issues"
+  },
+  "homepage": "https://github.com/Bejker33/moj-projekt-java#readme",
+  "devDependencies": {
+    "jest": "^30.0.4",
+    "nodemon": "^3.1.10"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
