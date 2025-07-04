@@ -1,4 +1,4 @@
-function validateUserForm(name, email, message) {
+function validateForm(name, email, message) {
  const errors = [];
 
  if (!name || name.trim().length < 2) {
