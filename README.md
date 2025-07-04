@@ -30,6 +30,10 @@ javac src/Main.java
 # Uruchomienie programu
 java -cp src Main
 
+## Utils
+
+Klasa pomocnicza wyświetlająca komunikat.
+
 ---
 
 ## Dokumentacja
